@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">bullseye</string>
+    <string name="app_name">Bull\'s Eye</string>
+    <string name="home_title">PUT THE BULLSEYE AS CLOSE AS YOU CAN TO</string>
+    <string name="home_btn">Hit me !!!</string>
+    <string name="min_value_text">0</string>
+    <string name="max_value_text">100</string>
+    <string name="target_value_text">65</string>
+    <string name="result_dialog_title">Result dialog title</string>
+    <string name="result_dialog_message">Result dialog message</string>
 </resources>
