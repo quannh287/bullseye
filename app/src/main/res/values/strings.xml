@@ -7,4 +7,7 @@
     <string name="target_value_text">65</string>
     <string name="result_dialog_title">Result dialog title</string>
     <string name="result_dialog_message">Result dialog message</string>
+    <string name="happy_birthday_title">Happy birthday, Quan</string>
+    <string name="happy_birthday_from">From Theo Xinh Gai.</string>
+    <string name="happy_birthday_content_description">Happy Birthday Content Description</string>
 </resources>

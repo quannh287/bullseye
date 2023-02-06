@@ -48,9 +48,9 @@ class MainActivity : AppCompatActivity() {
 
         builder.setTitle(dialogTitle)
         builder.setMessage(dialogMessage)
-        builder.setPositiveButton(R.string.home_btn) { dialog, _ ->
-            dialog.dismiss()
-        }
+//        builder.setPositiveButton(R.string.home_btn) { dialog, _ ->
+//            dialog.dismiss()
+//        }
 
         builder.create().show()
     }
