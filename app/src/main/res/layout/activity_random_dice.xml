@@ -5,6 +5,43 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+    <TextView
+            android:text="@string/random_rice_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/random_dice_title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.425"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias="0.498" />
 
+    <Button
+            android:text="@string/btn_roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_roll"
+            app:layout_constraintTop_toBottomOf="@+id/random_dice_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintVertical_bias="0.247" />
 
+    <TextView
+            android:text="@string/random_rice_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/random_dice_value"
+            app:layout_constraintBottom_toTopOf="@+id/btn_roll"
+            app:layout_constraintTop_toBottomOf="@+id/random_dice_title"
+            app:layout_constraintVertical_bias="0.494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
 </androidx.constraintlayout.widget.ConstraintLayout>

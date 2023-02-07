@@ -19,4 +19,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="random_rice_title">Random Rice App</string>
+    <string name="random_rice_value">0</string>
+    <string name="btn_roll">ROLL</string>
 </resources>
