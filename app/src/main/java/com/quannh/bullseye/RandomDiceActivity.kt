@@ -16,8 +16,18 @@ class RandomDiceActivity : AppCompatActivity() {
 
         val randomDiceValue = binding.randomDiceValue
         val firstDice = Dice(6)
+
         binding.btnRoll.setOnClickListener{
-            randomDiceValue.text = firstDice.roll().toString()
+            val rollResult = firstDice.roll()
+            randomDiceValue.text = rollResult.toString()
+            when(rollResult) {
+                1 -> binding.diceImg.setImageResource(R.drawable.dice_1)
+                2 -> binding.diceImg.setImageResource(R.drawable.dice_2)
+                3 -> binding.diceImg.setImageResource(R.drawable.dice_3)
+                4 -> binding.diceImg.setImageResource(R.drawable.dice_4)
+                5 -> binding.diceImg.setImageResource(R.drawable.dice_5)
+                6 -> binding.diceImg.setImageResource(R.drawable.dice_6)
+            }
         }
     }
 }

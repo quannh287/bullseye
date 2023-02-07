@@ -22,4 +22,5 @@
     <string name="random_rice_title">Random Rice App</string>
     <string name="random_rice_value">0</string>
     <string name="btn_roll">ROLL</string>
+    <string name="dice_roller_app_image_description">Dice Roller App Image Description</string>
 </resources>
