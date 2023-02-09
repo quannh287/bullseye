@@ -33,7 +33,7 @@
             app:layout_constraintTop_toBottomOf="@+id/dice_img" />
 
     <ImageView
-            android:layout_width="100dp"
+            android:layout_width="110dp"
             android:layout_height="100dp"
             tools:srcCompat="@drawable/dice_1"
             android:id="@+id/dice_img"
@@ -46,7 +46,6 @@
             android:contentDescription="@string/dice_roller_app_image_description"
             tools:visibility="visible"
             android:visibility="visible"
-            android:rotation="45"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/dice_1" />
 
